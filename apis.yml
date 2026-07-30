@@ -1,20 +1,44 @@
 aid: leadstate-incorporated
 name: Leadstate Incorporated
-description: Leadstate Incorporated is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Leadstate Incorporated is a New York City based real estate and design technology company,
+  founded in 2021 and backed by 500 Global, that builds AI and AR tooling for how spaces are planned,
+  developed, designed, and marketed. Its consumer-facing products are ReelProp, which turns static
+  property photography and interior design sketches into marketing video reels, and RealMe In, which
+  generates and manipulates 3D assets. The published product surface covers Photo-to-Video and
+  Sketch-to-Video generation, CADgpt text-to-3D model generation, Image-to-3D asset conversion, and
+  FloorPlan-to-3D visualization. As of this enrichment pass the company publishes no public developer
+  portal, API reference, OpenAPI definition, SDK, or machine-readable developer surface of any kind,
+  so this profile records verified company identity and web properties only.
 url: https://raw.githubusercontent.com/api-evangelist/leadstate-incorporated/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.leadstate.com/preview.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- Property Technology
+- Artificial Intelligence
+- Generative Video
+- 3D Visualization
+- Interior Design
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://reelprop.ai
+  url: https://www.leadstate.com/
+- type: TermsOfService
+  url: https://www.leadstate.com/terms
+- type: PrivacyPolicy
+  url: https://www.leadstate.com/privacypolicy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/reelprop
+- type: LLMsTxt
+  url: llms/leadstate-incorporated-llms.txt
+- type: DomainSecurity
+  url: security/leadstate-incorporated-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
