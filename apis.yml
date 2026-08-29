@@ -10,6 +10,17 @@ description: Leadstate Incorporated is a New York City based real estate and des
   portal, API reference, OpenAPI definition, SDK, or machine-readable developer surface of any kind,
   so this profile records verified company identity and web properties only.
 url: https://raw.githubusercontent.com/api-evangelist/leadstate-incorporated/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
