@@ -1,5 +1,5 @@
 aid: leadstate-incorporated
-name: Leadstate Incorporated
+name: Leadstate
 description: Leadstate Incorporated is a New York City based real estate and design technology company,
   founded in 2021 and backed by 500 Global, that builds AI and AR tooling for how spaces are planned,
   developed, designed, and marketed. Its consumer-facing products are ReelProp, which turns static
@@ -44,8 +44,8 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Real-Estate
-- Property Technology
+- Real Estate
+- PropTech
 - Artificial Intelligence
 - Generative Video
 - 3D Visualization
@@ -58,6 +58,7 @@ tags_raw:
 - Generative Video
 - 3D Visualization
 - Interior Design
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -82,3 +83,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Leadstate Incorporated
